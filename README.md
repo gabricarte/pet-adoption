@@ -1,9 +1,9 @@
 
-# PetAdoption App
+# PetAdoption
 
 ## General Overview
 
-The PetAdoption app is a mobile application developed using React Native. Its primary goal is to facilitate pet adoption by connecting potential adopters with pet owners looking to rehome their pets.
+PetAdoption is a mobile application developed using React Native. Its primary goal is to facilitate pet adoption by connecting potential adopters with pet owners looking to rehome their pets.
 
 The app retrieves fictitious data from two APIs: the Random User Generator API and the Dog API.
 
@@ -14,6 +14,12 @@ The app features three main screens: IntroScreen, PetListScreen, and PetInfoScre
 - `PetListScreen`: Here, users can view a list of pets available for adoption. Each pet is displayed with its name, image, and gender.
 
 - `PetInfoScreen`: This screen provides detailed information about a selected pet, including its image, name, gender, and information about the owner.
+
+## Demo
+
+Here's a quick demo of the PetAdoption app in action:
+
+![pet-adoption-gif](https://github.com/gabricarte/pet-adoption/assets/104357417/1b24f930-b8df-4b2b-830d-8a0f19d5c292)
 
 ## Technologies Used
 The PetAdoption app is built using the following technologies:
@@ -34,7 +40,6 @@ The key functionalities of the PetAdoption app include:
 - Accessing detailed information about each pet, including owner details.
 - Navigating between screens to browse pets and learn more about them.
 
-## Screenshots
 
 ### Acknowledgments
 
