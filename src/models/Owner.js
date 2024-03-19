@@ -1,9 +1,8 @@
 export class Owner{
-    constructor(name, phone,city, country, img){
+    constructor(name, phone, location, img){
         this.name = name; 
         this.phone = phone;
-        this.city = city; 
-        this.country = country; 
+        this.location = location;
         this.img = img; 
     };
 };

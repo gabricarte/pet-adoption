@@ -7,8 +7,7 @@ export const fetchOwnerData = async () => {
         const ownerData = new Owner(
             `${data.results[0].name.first} ${data.results[0].name.last}`,
             data.results[0].phone,
-            data.results[0].location.city,
-            data.results[0].location.country,
+            `${data.results[0].location.city}, ${data.results[0].location.country}`,
             data.results[0].picture.medium
         );
         return ownerData;
