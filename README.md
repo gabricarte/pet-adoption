@@ -1,79 +1,44 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+# PetAdoption App
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## General Overview
 
-## Step 1: Start the Metro Server
+The PetAdoption app is a mobile application developed using React Native. Its primary goal is to facilitate pet adoption by connecting potential adopters with pet owners looking to rehome their pets.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+The app retrieves fictitious data from two APIs: the Random User Generator API and the Dog API.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+The app features three main screens: IntroScreen, PetListScreen, and PetInfoScreen.
 
-```bash
-# using npm
-npm start
+- `IntroScreen`: This screen serves as the entry point for users and presents a welcoming message along with an image. Users can click on a button to begin browsing available pets.
 
-# OR using Yarn
-yarn start
-```
+- `PetListScreen`: Here, users can view a list of pets available for adoption. Each pet is displayed with its name, image, and gender.
 
-## Step 2: Start your Application
+- `PetInfoScreen`: This screen provides detailed information about a selected pet, including its image, name, gender, and information about the owner.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Technologies Used
+The PetAdoption app is built using the following technologies:
 
-### For Android
+- React Native: A JavaScript framework for building cross-platform mobile applications.
 
-```bash
-# using npm
-npm run android
+- JavaScript: The primary programming language used for app development.
 
-# OR using Yarn
-yarn android
-```
+- Random User Generator API: Provides randomly generated user data for showcasing pet owners.
 
-### For iOS
+- Dog API: Offers access to a vast collection of dog images to display alongside pet information.
 
-```bash
-# using npm
-npm run ios
+## Functionalities
 
-# OR using Yarn
-yarn ios
-```
+The key functionalities of the PetAdoption app include:
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+- Viewing available pets for adoption.
+- Accessing detailed information about each pet, including owner details.
+- Navigating between screens to browse pets and learn more about them.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## Screenshots
 
-## Step 3: Modifying your App
+### Acknowledgments
 
-Now that you have successfully run the app, let's modify it.
+Special thanks to the creators of the [Random User Generator API](https://randomuser.me/) and [The Dog API](https://dog.ceo/dog-api) for providing the necessary data for the app.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+### Feel free to contribute with improvements, bug fixes, or new functionalities. Just open an issue or send a pull request.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
