@@ -15,6 +15,12 @@ The app features three main screens: IntroScreen, PetListScreen, and PetInfoScre
 
 - `PetInfoScreen`: This screen provides detailed information about a selected pet, including its image, name, gender, and information about the owner.
 
+## Demo
+
+Here's a quick demo of the PetAdoption app in action:
+
+![pet-adoption-gif](https://github.com/gabricarte/pet-adoption/assets/104357417/1b24f930-b8df-4b2b-830d-8a0f19d5c292)
+
 ## Technologies Used
 The PetAdoption app is built using the following technologies:
 
@@ -34,7 +40,6 @@ The key functionalities of the PetAdoption app include:
 - Accessing detailed information about each pet, including owner details.
 - Navigating between screens to browse pets and learn more about them.
 
-## Screenshots
 
 ### Acknowledgments
 
