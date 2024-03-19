@@ -1,9 +1,9 @@
 
-# PetAdoption App
+# PetAdoption
 
 ## General Overview
 
-The PetAdoption app is a mobile application developed using React Native. Its primary goal is to facilitate pet adoption by connecting potential adopters with pet owners looking to rehome their pets.
+PetAdoption is a mobile application developed using React Native. Its primary goal is to facilitate pet adoption by connecting potential adopters with pet owners looking to rehome their pets.
 
 The app retrieves fictitious data from two APIs: the Random User Generator API and the Dog API.
 
